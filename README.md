@@ -77,16 +77,16 @@
 
 #### Привязка GitHub к Git по публичному SSH-ключу
  
- **Windows:** <br>
- *скопировать содержимое ключа в буфер обмена:* <br>
-$ clip < ~/.ssh/id_rsa.pub <br>
-* для ed25519:* <br>
-$ clip < ~/.ssh/id_ed25519.pub  <br>
+**Windows:** <br>
+Cкопировать содержимое ключа в буфер обмена: <br>
+` clip < ~/.ssh/id_rsa.pub `<br>
+*для ed25519:* <br>
+` clip < ~/.ssh/id_ed25519.pub  `<br>
 **macOS:** <br>
-* скопировать содержимое ключа в буфер обмена:* <br>
-$ pbcopy < ~/.ssh/id_rsa.pub <br>
-* для ed25519:* <br>
-$ pbcopy < ~/.ssh/id_ed25519.pub <br>
+Cкопировать содержимое ключа в буфер обмена: <br>
+` pbcopy < ~/.ssh/id_rsa.pub `<br>
+*для ed25519:* <br>
+` pbcopy < ~/.ssh/id_ed25519.pub `<br>
 
 В GitHub: Settings -> New SSH key. *Title* = **Personal key**, *Key Type* = **Authentication Key**. В поле *Key* вставить содержимое буфера обмена. <br>
 
@@ -94,7 +94,7 @@ $ pbcopy < ~/.ssh/id_ed25519.pub <br>
 
 `ssh -T git@github.com ` <br>
 
-Ссылка в ключами GitHubs: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints
+Ссылка c ключами GitHubs: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints
 
 #### Привязка локального репозитория к репозиторию на GitHub
 
