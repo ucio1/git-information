@@ -148,9 +148,9 @@ Git хеширует информацию о коммите с помощью а
 
 ```mermaid
 graph LR;
-    untracked --> "git add" --> staged;
-    staged -->  "git commit -m "--> tracked/commited;
-    modified --> "git add" --> staged;
+    untracked -- "git add" --> staged;
+    staged --  "git commit -m "--> tracked/commited;
+    modified -- "git add" --> staged;
 ```
 
 ## Оформление сообщений к коммитам
